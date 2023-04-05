@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Beatriz Coelho">
+  <meta name="description" content="Grenville Restaurant Website/Contact page">
+  <meta name="keywords" content="HTML, CSS">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Grenville Restaurant</title>
+</head>
+
+  <body>
+    <header>
+      <div class="navigation">
+        <div class="restaurantname">
+          <a href="index.html" class="title"
+            ><span id="name">greenville</span><i>restaurant</i></a
+          >
+        </div>
+        <nav class="nav">
+          <ul>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="drinks.html">Drinks</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div>
+        <img id="main-img" src="imgs/restaurant.jpg" alt="Restaurant Image">
+      </div>
+    </header>
+
+    <main>
+      <h1>Contact</h1>
+      <p><i>2201 Dundas Street West Etobicoke, ON. M9A 1AQ</i></p>
+      <p><strong>Phone:</strong> 647-222-0392</p>
+      <p><strong>Email: </strong>info@greenvillerestaurant.ca</p>
+
+      <h1>Make your reservation</h1>
+      <form>
+        <fieldset>
+          <div>
+            <label for="nameform">Name</label>
+            <input id="nameform" name="nameform" type="text" required>
+          </div>
+
+          <div>
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" required>
+          </div>
+
+          <div>
+            <label for="datehour">Date and hour</label>
+            <input
+              id="datehour"
+              name="datehour"
+              type="datetime-local"
+              required
+            >
+          </div>
+          <div>
+            <button id="buttonform">Send</button>
+          </div>
+        </fieldset>
+      </form>
+
+
+    </main>
+
+    <footer class="footer">
+      <p>Greenville Restaurant - 2022 - All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
